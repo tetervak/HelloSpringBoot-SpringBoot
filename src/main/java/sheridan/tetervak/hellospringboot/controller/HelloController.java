@@ -29,7 +29,13 @@ public class HelloController {
     }
 
     @GetMapping("/Output")
-    public String output(){
+    public String output(
+            @RequestParam String firstName,
+            @RequestParam String lastName,
+            Model model){
+
+        model.addAttribute("firstName", firstName);
+        model.addAttribute("lastName", lastName);
         return "Output";
     }
 
