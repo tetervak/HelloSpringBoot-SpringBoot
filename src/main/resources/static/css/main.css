@@ -4,3 +4,7 @@ h1{
 h2{
     color: darkblue;
 }
+label{
+    font-weight: bold;
+    color: dodgerblue;
+}
