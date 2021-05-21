@@ -23,4 +23,15 @@ public class HelloController {
         return "Hello";
     }
 
+    @GetMapping("/Input")
+    public String input(){
+        return "Input";
+    }
+
+    @GetMapping("/Output")
+    public String output(){
+        return "Output";
+    }
+
+
 }
