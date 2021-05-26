@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
+@SuppressWarnings("unused")
 public class User implements Serializable {
 
     private final Logger logger = LoggerFactory.getLogger(User.class);
