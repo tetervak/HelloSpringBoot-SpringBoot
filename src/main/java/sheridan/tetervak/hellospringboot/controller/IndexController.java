@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class IndexController {
 
     @SuppressWarnings("SameReturnValue")
-    @GetMapping("/Index")
+    @GetMapping(value={"/","/Index"})
     public String index(){
         return "Index";
     }
